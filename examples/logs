@@ -1,0 +1,20 @@
+2025-03-19 18:19:50 sshd[12345]: PERMISSION_DENIED for user user123 from 203.0.113.4
+2025-03-19 18:19:50 MyApp: Unexpected error occurred
+172.16.0.3 - - [2025-03-19 18:19:50] "DELETE /dashboard HTTP/1.1" 200 2994
+2025-03-19 18:19:50 DB_QUERY: UPDATE accounts SET balance=0
+2025-03-19 18:19:50 MyApp: Task completed successfully
+2025-03-19 18:19:50 myserver systemd[1]: Task completed successfully
+2025-03-19 18:19:50 MyApp: Task completed successfully
+2025-03-19 18:19:50 DB_QUERY: DELETE FROM logs WHERE id=5
+2025-03-19 18:19:50 myserver systemd[1]: Unexpected error occurred
+198.51.100.5 - - [2025-03-19 18:19:50] "GET /index.html HTTP/1.1" 404 3903
+2025-03-19 18:19:50 sshd[12345]: USER_CREATED for user guest from 203.0.113.4
+2025-03-19 18:19:50 MyApp: Unexpected error occurred
+2025-03-19 18:19:50 myserver systemd[1]: Service started
+203.0.113.4 - - [2025-03-19 18:19:50] "DELETE /dashboard HTTP/1.1" 301 1522
+203.0.113.4 - - [2025-03-19 18:19:50] "GET /api/data HTTP/1.1" 500 2958
+2025-03-19 18:19:50 sshd[12345]: LOGIN_FAILURE for user root from 203.0.113.4
+203.0.113.4 - - [2025-03-19 18:19:50] "PUT /api/data HTTP/1.1" 301 815
+198.51.100.5 - - [2025-03-19 18:19:50] "DELETE /login HTTP/1.1" 301 1522
+2025-03-19 18:19:50 DB_QUERY: UPDATE accounts SET balance=0
+10.0.0.2 - - [2025-03-19 18:19:50] "GET /index.html HTTP/1.1" 301 2958
