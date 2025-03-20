@@ -34,4 +34,4 @@ def generate_logs(n=10):
         log_type = random.choice(LOG_TYPES)
         print(generate_log(log_type))
 
-generate_logs(20)
+generate_logs(60)
