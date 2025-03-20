@@ -8,4 +8,4 @@
 ```sh
 cobc -x ./main.cbl -o main log_reader
 ```
-Puis `./main.cbl`
+Puis `./log_reader`
